@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="Perplexity Auto Creator banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset="0.55" stop-color="#0d1a2e"/>
+      <stop offset="1" stop-color="#102a3a"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20808D"/>
+      <stop offset="1" stop-color="#4dd0e1"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffb454"/>
+      <stop offset="1" stop-color="#ff7a45"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4dd0e1" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#4dd0e1" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <circle cx="1010" cy="200" r="230" fill="url(#halo)"/>
+
+  <!-- dotted wave grid -->
+  <g fill="#2a4a6b" opacity="0.6">
+    <g id="dots"></g>
+  </g>
+  <g fill="#2a4a6b" opacity="0.55">
+    <script/>
+  </g>
+  <g fill="#2a4a6b" opacity="0.5">
+    <g>
+      <use href="#dotrow"/>
+    </g>
+  </g>
+  <defs>
+    <g id="dotrow">
+      <circle cx="0" cy="0" r="2"/>
+    </g>
+  </defs>
+  <g fill="#274766" opacity="0.55">
+    <!-- manual dot grid: 3 rows -->
+    <g>
+      <circle cx="700" cy="250" r="2.4"/><circle cx="740" cy="258" r="2.4"/><circle cx="780" cy="266" r="2.4"/>
+      <circle cx="820" cy="272" r="2.4"/><circle cx="860" cy="276" r="2.4"/><circle cx="900" cy="278" r="2.4"/>
+      <circle cx="940" cy="276" r="2.4"/><circle cx="980" cy="270" r="2.4"/><circle cx="1020" cy="260" r="2.4"/>
+      <circle cx="1060" cy="246" r="2.4"/><circle cx="1100" cy="228" r="2.4"/><circle cx="1140" cy="206" r="2.4"/>
+    </g>
+    <g opacity="0.8">
+      <circle cx="720" cy="300" r="2.4"/><circle cx="760" cy="306" r="2.4"/><circle cx="800" cy="310" r="2.4"/>
+      <circle cx="840" cy="312" r="2.4"/><circle cx="880" cy="312" r="2.4"/><circle cx="920" cy="308" r="2.4"/>
+      <circle cx="960" cy="302" r="2.4"/><circle cx="1000" cy="292" r="2.4"/><circle cx="1040" cy="280" r="2.4"/>
+      <circle cx="1080" cy="264" r="2.4"/><circle cx="1120" cy="244" r="2.4"/>
+    </g>
+    <g opacity="0.6">
+      <circle cx="760" cy="346" r="2.4"/><circle cx="800" cy="350" r="2.4"/><circle cx="840" cy="352" r="2.4"/>
+      <circle cx="880" cy="352" r="2.4"/><circle cx="920" cy="348" r="2.4"/><circle cx="960" cy="342" r="2.4"/>
+      <circle cx="1000" cy="332" r="2.4"/><circle cx="1040" cy="318" r="2.4"/><circle cx="1080" cy="302" r="2.4"/>
+    </g>
+  </g>
+
+  <!-- logo mark -->
+  <g transform="translate(120 108)">
+    <circle cx="92" cy="92" r="92" fill="#0b1626" stroke="#1f3b5c" stroke-width="2"/>
+    <g opacity="0.6" stroke="url(#teal)" fill="none" stroke-width="2.5">
+      <circle cx="92" cy="88" r="58" stroke-dasharray="7 12"/>
+    </g>
+    <path d="M92 44c-16 0-28 12-28 28v14l-18 11c-6 3-6 11 0 14l18 11v14c0 16 12 28 28 28s28-12 28-28v-14l18-11c6-3 6-11 0-14l-18-11V72c0-16-12-28-28-28z" fill="url(#teal)"/>
+    <circle cx="92" cy="88" r="18" fill="#0b1626"/>
+    <circle cx="92" cy="88" r="11" fill="url(#amber)"/>
+    <path d="M120 120 110 143h9l-4 20 17-27h-11l6-16z" fill="#ffd479"/>
+  </g>
+
+  <!-- wordmark -->
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="330" y="185" font-size="58" font-weight="700" fill="#eaf3fb" letter-spacing="-1">
+      Perplexity <tspan fill="url(#teal)">Auto Creator</tspan>
+    </text>
+    <text x="332" y="228" font-size="23" fill="#8fb0c9" font-weight="400">
+      Random identity · temp inbox · session cookies &amp; access token
+    </text>
+    <g transform="translate(332 262)">
+      <rect x="0" y="0" width="182" height="34" rx="17" fill="#10202f" stroke="#1f3b5c"/>
+      <text x="18" y="23" font-size="15" fill="#4dd0e1" font-family="ui-monospace,Menlo,monospace">Cloudflare-aware</text>
+      <rect x="198" y="0" width="150" height="34" rx="17" fill="#10202f" stroke="#1f3b5c"/>
+      <text x="216" y="23" font-size="15" fill="#ffb454" font-family="ui-monospace,Menlo,monospace">End-to-end</text>
+      <rect x="364" y="0" width="150" height="34" rx="17" fill="#10202f" stroke="#1f3b5c"/>
+      <text x="382" y="23" font-size="15" fill="#9ad7a0" font-family="ui-monospace,Menlo,monospace">Zero deps</text>
+    </g>
+  </g>
+</svg>
