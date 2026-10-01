@@ -1,0 +1,57 @@
+{
+  "name": "perplexity-auto-creator",
+  "version": "1.0.0",
+  "description": "Automated, end-to-end Perplexity account creator — random identity, disposable inbox, session cookies and access token. Cloudflare-aware browser automation.",
+  "type": "module",
+  "main": "src/perplexity_creator.mjs",
+  "exports": {
+    ".": "./src/perplexity_creator.mjs",
+    "./runner": "./src/run_perplexity_creator.mjs"
+  },
+  "files": [
+    "src/",
+    "assets/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "node --check src/perplexity_creator.mjs && node --check src/run_perplexity_creator.mjs"
+  },
+  "keywords": [
+    "perplexity",
+    "automation",
+    "account-creator",
+    "cdp",
+    "chrome-devtools-protocol",
+    "browser-automation",
+    "cloudflare",
+    "nextauth",
+    "temp-mail",
+    "mail.tm",
+    "session",
+    "access-token",
+    "cookies",
+    "scraping",
+    "bot",
+    "nodejs",
+    "esm",
+    "zero-dependencies"
+  ],
+  "author": {
+    "name": "XHI",
+    "url": "https://github.com/0xgetz"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xgetz/perplexity-auto-creator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0xgetz/perplexity-auto-creator/issues"
+  },
+  "homepage": "https://github.com/0xgetz/perplexity-auto-creator#readme"
+}
