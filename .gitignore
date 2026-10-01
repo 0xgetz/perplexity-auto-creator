@@ -1,0 +1,30 @@
+# Secrets & generated account data
+outputs/
+*.json
+!package.json
+!package-lock.json
+perplexity-account-*.json
+.env
+.env.*
+*.pem
+*.key
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Logs / caches
+logs/
+*.log
+.cache/
+coverage/
